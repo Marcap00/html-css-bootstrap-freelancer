@@ -36,5 +36,16 @@ header .icon {
 
 .hero .col-10 {
     border: 1px dashed white;
-    margin: 0 auto;
+}
+
+/* Portfolio */
+.portfolio .card {
+    height: 200px;
+    background-color: #ba4b63;
+}
+
+/* About */
+.about {
+    background-color: #1abc9c;
+    height: 500px;
 }
