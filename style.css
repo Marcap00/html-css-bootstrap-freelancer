@@ -2,6 +2,14 @@
     border: 1px dashed rgb(255, 0, 0);
 }
 
+.row {
+    border: 1px dashed purple;
+}
+
+.col {
+    border: 1px dashed blue;
+}
+
 
 
 /* Header */
@@ -31,7 +39,7 @@ header .icon {
 /* Hero */
 .hero {
     background-color: #1abc9c;
-    height: 500px;
+    height: 400px;
 }
 
 .hero .col-10 {
@@ -48,4 +56,29 @@ header .icon {
 .about {
     background-color: #1abc9c;
     height: 500px;
+}
+
+.about .card {
+    background-color: #1abc9c;
+}
+
+.about p {
+    color: white;
+}
+
+/* Contact */
+
+.contacts {
+    height: 400px;
+}
+
+/* Footer */
+.footer-top {
+    height: 100px;
+    background-color: #3a546d;
+}
+
+.footer-bottom {
+    height: 80px;
+    background-color: #2c3e50;
 }
