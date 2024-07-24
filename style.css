@@ -2,6 +2,8 @@
     border: 1px dashed rgb(255, 0, 0);
 }
 
+
+
 /* Header */
 
 header {
@@ -24,4 +26,15 @@ header ul {
 
 header .icon {
     border: 1px dashed greenyellow;
+}
+
+/* Hero */
+.hero {
+    background-color: #1abc9c;
+    height: 500px;
+}
+
+.hero .col-10 {
+    border: 1px dashed white;
+    margin: 0 auto;
 }
