@@ -30,6 +30,11 @@ header nav {
     margin: 0 auto;
 }
 
+.bar {
+    border: 3px solid white;
+    border-radius: 3px;
+    width: 20%;
+}
 
 
 /* Portfolio */
