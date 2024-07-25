@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css' integrity='sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==' crossorigin='anonymous'/>
     <!-- Bootstrap 5 -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css' integrity='sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==' crossorigin='anonymous'/>
     <!-- Style -->
@@ -11,31 +13,42 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <nav class="d-flex justify-content-between align-items-center">
-                <h1 class="text-white">Title</h1>
-
-                <div class="icon text-white d-sm-none">
-                    icon
-                </div>
-                <ul class="list-inline text-white d-none d-sm-block">
-                    <li class="list-inline-item">link</li>
-                    <li class="list-inline-item">link</li>
-                    <li class="list-inline-item">link</li>
+        <nav class="navbar navbar-expand-md fw-bold" data-bs-theme="dark">
+            <div class="container-md">
+              <a class="navbar-brand fs-3 text-white" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="#">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">CONTACT</a>
+                  </li>
                 </ul>
-            </nav>
-        </div>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
 
-        <section class="hero">
-            <div class="container h-100">
-                <div class="row h-100 justify-content-center align-items-center">
+        <section class="hero text-white">
+            <div class="container">
+                <div class="row justify-content-center">
                     <div class="col-10 col-sm-8">
                         <div class="hero-card text-center">
-                            <div class="hero-image">image</div>
-                            <h2 class="hero-title">hero title</h2>
-                            <div class="splitter">splitter</div>
+                            <div class="hero-image mb-3">
+                                <img src="img/avatar.svg" alt="">
+                            </div>
+                            <h2 class="hero-title fs-1">START BOOTSTRAP</h2>
+                            <div class="splitter">
+                                <span class="ba"></span><i class="fa-solid fa-star"></i><span class="ba"></span> 
+                            </div>
                             <p>paragraph</p>
                         </div>
                     </div>
@@ -128,6 +141,6 @@
         </section>
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,50 +1,36 @@
-.container {
-    border: 1px dashed rgb(255, 0, 0);
+/* General */
+img {
+    max-width: 100%;
+    display: block;
 }
-
-.row {
-    border: 1px dashed purple;
-}
-
-.col {
-    border: 1px dashed blue;
-}
-
-
 
 /* Header */
 
 header {
     background-color: #2c3e50;
-    border: 1px dashed blue;
 }
 
 header nav {
-    min-height: 100px;
-    border: 1px dashed white;
+    min-height: 100px;;
 }
 
-h1 {
-    border: 1px dashed greenyellow;
-}
 
-header ul {
-    border: 1px dashed greenyellow;
-}
-
-header .icon {
-    border: 1px dashed greenyellow;
-}
 
 /* Hero */
 .hero {
     background-color: #1abc9c;
-    height: 400px;
 }
 
-.hero .col-10 {
-    border: 1px dashed white;
+.hero-card {
+    padding: 20px 0;
 }
+
+.hero-image {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
 
 /* Portfolio */
 .portfolio .card {
