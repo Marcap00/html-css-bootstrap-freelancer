@@ -59,37 +59,26 @@
         <section class="portfolio">
             <div class="container">
                 <h3 class="text-center fs-2">PORTFOLIO</h3>
-                <div class="splitter mb-2 d-flex align-items-center justify-content-center">
+                <div class="splitter mb-3 d-flex align-items-center justify-content-center">
                     <span class="bar border-black d-inline-block"></span><i class="fa-solid fa-star fa-2x m-2"></i><span class="bar border-black d-inline-block"></span> 
                 </div>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
                     <div class="col">
-                        
                         <img class="rounded" src="img/cabin.png" alt="Cabin">
-                        
                     </div>
                     <div class="col">
-                
                         <img class="rounded" src="img/cake.png" alt="Cake">
-                        
                     </div>
                     <div class="col">
-                        
                         <img class="rounded" src="img/circus.png" alt="Circus">
-                        
                     </div>
                     <div class="col">
-                        
                         <img class="rounded" src="img/game.png" alt="Game">
-                        
                     </div>
                     <div class="col">
-                        
                         <img class="rounded" src="img/safe.png" alt="Safe">
-                        
                     </div>
                     <div class="col">
-                        
                         <img class="rounded" src="img/submarine.png" alt="Subamarine">
                         
                     </div>
@@ -101,7 +90,7 @@
                 <div class="row justify-content-center">
                     <div class="col-8">
                         <h3 class="text-center fs-2">ABOUT</h3>
-                        <div class="splitter mb-2 d-flex align-items-center justify-content-center">
+                        <div class="splitter mb-3 d-flex align-items-center justify-content-center">
                             <span class="bar d-inline-block"></span><i class="fa-solid fa-star fa-2x m-2"></i><span class="bar d-inline-block"></span> 
                         </div>
                         <div class="row row-cols-1 row-cols-sm-2 g-3">
@@ -120,7 +109,7 @@
                                     starting point!</p>
                                 </div>
                             </div>
-                            <div class="btn-download d-flex justify-content-center">
+                            <div class="btn-download d-flex justify-content-center my-3">
                                 <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</button>
                             </div>
                         </div>
@@ -129,22 +118,29 @@
             </div>
         </section>
         <section class="contacts">
-            <div class="container h-100">
-                <div class="row h-100 justify-content-center ">
+            <div class="container">
+                <div class="row justify-content-center ">
                     <div class="col-8">
-                        <div class="list-contacts h-100 d-flex flex-column justify-content-between">
-                            <div class="contacts-top">
-                                <h3 class="text-center">Contact me</h3>
-                                <div class="splitter text-center">splitter</div>
-                                <ul>
-                                    <li>Name</li>
-                                    <li>Email</li>
-                                    <li>Phone Number</li>
-                                    <li>Message</li>
-                                </ul>
-                            </div>
-                            <div class="send">btn</div>
+                        <h3 class="text-center fs-2">CONTACT ME</h3>
+                        <div class="splitter mb-2 d-flex align-items-center justify-content-center">
+                            <span class="bar border-black d-inline-block"></span><i class="fa-solid fa-star fa-2x m-2"></i><span class="bar border-black d-inline-block"></span> 
                         </div>
+                        <form action="">
+                            <div class="mb-1">
+                                <input type="text" class="form-control border-0 border-bottom rounded-0 p-0 pb-3" id="name" placeholder="Name">
+                            </div>
+                            <div class="mb-1">
+                                <input type="email" class="form-control border-0 border-bottom rounded-0 p-0 pb-3" id="email" placeholder="Email Address">
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control border-0 border-bottom rounded-0 p-0 pb-3" id="phone" placeholder="Phone Number">
+                            </div>
+                            <div class="mb-2">
+                                <textarea class="form-control border-0 border-bottom rounded-0 p-0" id="message" rows="5" placeholder="Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-green">Send</button>
+                        </form>
+                        
                     </div>
                 </div>
             </div>
