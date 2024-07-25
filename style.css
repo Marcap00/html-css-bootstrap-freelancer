@@ -59,11 +59,18 @@ header nav {
 
 /* Footer */
 .footer-top {
-    height: 100px;
     background-color: #3a546d;
 }
 
+.footer-top i {
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+}
+
 .footer-bottom {
-    height: 80px;
+    height: 60px;
     background-color: #2c3e50;
 }
