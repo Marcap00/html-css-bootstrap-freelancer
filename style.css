@@ -15,6 +15,10 @@ section {
     width: 20%;
 }
 
+/* .border-white {
+    border: 1px solid white;
+} */
+
 /* Header */
 
 header {
@@ -40,7 +44,6 @@ header nav {
 /* About */
 .about {
     background-color: #1abc9c;
-    height: 500px;
 }
 
 .about .card {
